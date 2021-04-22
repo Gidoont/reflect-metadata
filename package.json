@@ -1,5 +1,5 @@
 {
-  "name": "reflect-metadata",
+  "name": "reflect-metadata-browser",
   "version": "0.1.12",
   "description": "Polyfill for Metadata Reflection API",
   "main": "Reflect.js",
@@ -8,14 +8,13 @@
     "definition": "Reflect.d.ts"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
     "build": "gulp build",
     "test": "gulp test",
     "start": "gulp start"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbuckton/reflect-metadata.git"
+    "url": "git+https://github.com/Gidoont/reflect-metadata.git"
   },
   "keywords": [
     "decorator",
@@ -23,11 +22,7 @@
     "javascript",
     "reflect"
   ],
-  "author": {
-    "name": "Ron Buckton",
-    "email": "ron.buckton@microsoft.com",
-    "url": "http://github.com/rbuckton"
-  },
+  "author": "Ron Buckton <ron.buckton@microsoft.com> (http://github.com/rbuckton)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/rbuckton/reflect-metadata/issues"
@@ -50,5 +45,9 @@
     "gulp-tsb": "^2.0.3",
     "mocha": "^3.2.0",
     "typescript": "^2.1.4"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
